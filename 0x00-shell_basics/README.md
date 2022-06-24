@@ -11,3 +11,4 @@ rmdir /tmp/my_first_directory: Delete the directory my_first_directory that is i
 cd -: changes the working directory to the previous directory
 ls -al . .. /boot: lists all files in the current directory and the parent of the working directory and the /boot directory (in this order), in long format
 file /tmp/iamafile: prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script
+ln -s /bin/ls __ls__: a symbolic link to /bin/ls, named __ls__
