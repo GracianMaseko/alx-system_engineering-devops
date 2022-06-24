@@ -9,4 +9,4 @@ mv /tmp/betty /tmp/my_first_directory/betty: Move the file betty from /tmp/ to /
 rm /tmp/my_first_directory/betty: Delete the file betty
 rmdir /tmp/my_first_directory: Delete the directory my_first_directory that is in the /tmp directory
 cd -: changes the working directory to the previous one
-ls -la /0x00-shell_basics /boot
+ls -l /0x00-shell_basics /boot
