@@ -1,3 +1,4 @@
 echo: prints “Hello, World”, followed by a new line to the standard output
 echo \"\(Ôo\)\': script that displays a confused smiley "(Ôo)'
 cat /etc/passwd: Display the content of the /etc/passwd file
+echo 'cat /etc/passwd /etc/hosts: Display the content of /etc/passwd and /etc/hosts
