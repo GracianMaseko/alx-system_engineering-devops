@@ -24,4 +24,13 @@ tr Ac Ze: Replace all characters A and c from input to Z and e respectively.
 tr -d Cc: Create a script that removes all letters c and C from input.
 rev: reverse its input.
 cut -d":" --fields=1,6 /etc/passwd | sort: isplays all users and their home directories, sorted by users.
-find . -empty -printf "%f\n":  finds all empty files and directories in the current directory and all sub-directories
+find . -empty -printf "%f\n":  finds all empty files and directories in the current directory and all sub-directories, Only the names of the files and directories should be displayed (not the entire path)
+Hidden files should be listed
+One file name per line
+find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d . -f2- | rev | LC_ALL=C sort -f: lists all the files with a .gif extension in the current directory and all its sub-directories.
+
+Hidden files should be listed
+Only regular files (not directories) should be listed
+The names of the files should be displayed without their extensions
+The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, and file Rona should be listed after file jay)
+One file name per line
