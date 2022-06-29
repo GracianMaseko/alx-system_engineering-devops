@@ -18,3 +18,4 @@ printf "%x\n" $DECIMAL: converts a number from base 10 to base 16. The number in
 tr A-Za-z N-ZA-Mn-za-m: encodes and decodes text using the rot13 encryption. Assume ASCII. >> README.md
 
 paste -d" " - - | cut -d " " -f 1: prints every other line from the input, starting with the first line.
+export WATER=STIR: adds the two numbers stored in the environment variables WATER and STIR and prints the result.
