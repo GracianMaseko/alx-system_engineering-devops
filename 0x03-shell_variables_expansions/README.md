@@ -9,3 +9,4 @@ echo $(($TRUEKNOWLEDGE+128)): prints the result of the addition of 128 with the 
 echo $(($POWER/$DIVIDE)): prints the result of POWER divided by DIVIDE, followed by a new line.
 
 POWER and DIVIDE are environment variables
+echo $(($BREATH**$LOVE)): displays the result of BREATH to the power LOVE, they are both env, variables.
